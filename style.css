@@ -1,0 +1,65 @@
+/* Body Styles*/
+body, head {
+  font-family: Menlo;
+}
+
+body {
+  background-color: rgb(164,166,165);
+}
+
+/* Jumbotron Styles */
+.jumbotron{
+    background-image: url('mountain.png');
+    background-size:cover;
+    min-height:600px;
+    text-align: center;
+    color: #E5E7E9;
+  }
+
+h1{font-weight: bolder;}
+h3{font-weight: bold;}
+
+.store{
+  padding: 8px 20px;
+  background-color: #E5E7E9;
+}
+
+.click {
+  font-weight: bold;
+  color: red;
+}
+
+.click:hover{
+  color:red;
+  text-decoration: none;
+}
+
+/* Navbar styles */
+
+#nav{
+  border : none;
+  background-color: rgb(248,249,250);
+}
+
+.nav-item, .nav-item-active {
+  border:none;
+  background-color: inherit;
+  display:block;
+}
+
+.nav-item:hover{
+  font-style: oblique;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(0,175,175);
+}
+
+.nav-item:focus{
+  border-color: rgb(0,100,100);
+  color: grey;
+}
+
+
+.nav-item-active {
+  font-weight: bold;
+}
