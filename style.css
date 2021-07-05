@@ -13,7 +13,7 @@ body {
     background-size:cover;
     min-height:600px;
     text-align: center;
-    color: #E5E7E9;
+    color: /*#E5E7E9*/ white;
   }
 
 h1{font-weight: bolder;}
@@ -62,4 +62,10 @@ h3{font-weight: bold;}
 
 .nav-item-active {
   font-weight: bold;
+}
+
+/* Footer */
+
+footer{
+  background-color: black;
 }
