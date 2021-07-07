@@ -2,12 +2,20 @@ body,head{
   font-family: Menlo;
 }
 
+#txt{
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 12px;
+}
+
 /*Gallery Styles*/
 
 #gallery {
    line-height:0;
    column-count: 5;
    column-gap:5px;
+   margin: 12px;
 }
 
 #gallery img {
@@ -47,7 +55,7 @@ body,head{
     column-count:         1;
    }
 }
-
+*\
 /* Navbar styles */
 
 #nav{
