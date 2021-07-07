@@ -43,7 +43,7 @@ h3{font-weight: bold;}
   height: flex;
 }
 
-#Product-1{
+#Section-1{
   max-width:1000px;
   align-content: center;
 }
@@ -51,28 +51,26 @@ h3{font-weight: bold;}
 .button1{
   font-weight: bold;
   background-color: #E5E7E9;
+  margin-bottom: 10px
 }
 
 /* Gallery */
 
-#gallery{
+#Gallery{
   background-image: url("photos/4543.png");
   background-size: cover;
-  min-height: 600px;
-  margin: 12px
+  color: white;
+  min-height: 400px;
+  padding:25px;
+  margin : 10px;
 }
 
-#txt{
-  vertical-align: bottom;
-  color: white;
-  font-weight: bolder;
-}
+/* About */
 
 /* Navbar styles */
 
 #nav{
   border : none;
-  background-color: rgb(248,249,250);
 }
 
 .nav-item, .nav-item-active {
