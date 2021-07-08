@@ -1,0 +1,51 @@
+body, head {
+  font-family: Menlo;
+}
+
+#cont{
+  margin: auto;
+  width: 60%;
+  max-width: 600px;
+  padding: 10px;
+}
+
+.row{
+  margin-bottom: 15px;
+}
+
+#email{
+  margin-bottom: 0;
+}
+
+/* Navbar Styles */
+.nav-item, .nav-item-active {
+  border:none;
+  background-color: inherit;
+  display:block;
+}
+
+.nav-item:hover{
+  font-style: oblique;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(0,175,175);
+}
+
+.nav-item:focus{
+  border-color: rgb(0,100,100);
+  color: grey;
+}
+
+
+.nav-item-active {
+  font-weight: bold;
+}
+
+/*Footer Styles*/
+footer{
+  background-color: black;
+}
+
+#social-media{
+  margin-bottom: 0;
+}
