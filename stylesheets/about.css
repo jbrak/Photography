@@ -1,0 +1,52 @@
+
+body, head {
+  font-family: Menlo;
+}
+
+#box{
+  margin: 12px;
+}
+
+#sub-box{
+  padding: 15px;
+  margin-right:10px;
+  max-width: 700px;
+}
+
+#sub-box img{
+  height:100%;
+  width: 100%;
+}
+
+#sub-box h6{
+  margin: 12px;
+}
+
+/* Navbar Styles */
+.nav-item, .nav-item-active {
+  border:none;
+  background-color: inherit;
+  display:block;
+}
+
+.nav-item:hover{
+  font-style: oblique;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(0,175,175);
+}
+
+.nav-item:focus{
+  border-color: rgb(0,100,100);
+  color: grey;
+}
+
+
+.nav-item-active {
+  font-weight: bold;
+}
+
+/*Footer Styles*/
+footer{
+  background-color: black;
+}
