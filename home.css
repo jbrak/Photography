@@ -7,6 +7,12 @@ body {
   background-color: white;
 }
 
+@media (max-width: 800px) {
+   body {
+    margin:12px;
+   }
+}
+
 /* Jumbotron Styles */
 .jumbotron{
     background-image: url('photos/mountain.png');
