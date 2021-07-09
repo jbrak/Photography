@@ -17,6 +17,10 @@ body, head {
   margin-bottom: 0;
 }
 
+#logo{
+  min-width: 100px;ß
+}
+
 /* Navbar Styles */
 .nav-item, .nav-item-active {
   border:none;
