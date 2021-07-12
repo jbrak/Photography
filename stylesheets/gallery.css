@@ -2,6 +2,10 @@ body,head{
   font-family: Menlo;
 }
 
+body {
+  background-color: lightgrey;
+}
+
 #txt{
   text-align: center;
   background-color: black;

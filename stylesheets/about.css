@@ -3,6 +3,10 @@ body, head {
   font-family: Menlo;
 }
 
+body {
+  background-color: lightgrey;
+}
+
 #box{
   margin: 12px;
 }

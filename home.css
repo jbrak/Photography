@@ -4,7 +4,7 @@ body, head {
 }
 
 body {
-  background-color: white;
+  background-color: lightgrey;
 }
 
 @media (max-width: 800px) {
